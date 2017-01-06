@@ -1,3 +1,5 @@
+#include "cd.h"
+
 void cdParada( int p, int x, int y )
 {
    char numero[24] ;

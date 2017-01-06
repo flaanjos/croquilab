@@ -2,7 +2,8 @@
 #define _PROJECT_LOADER_H_
 
 #include <string>
-#include "topo_editor.h"
+
+#include "topoEditor.h"
 
 void loadProject( TopoEditor& editor, std::string url );
 

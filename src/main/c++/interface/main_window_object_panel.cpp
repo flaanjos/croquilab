@@ -1,7 +1,7 @@
+#include "../buttonImages.h"
 #include "main_window_class.h"
 
 #include "iup.h"
-#include "button_images.h"
 
 int MainWindow::objectButton_cb(Ihandle* button)
 {

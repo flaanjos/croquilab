@@ -2,11 +2,13 @@
 #ifndef _BUTTON_BLOCK__
 #define _BUTTON_BLOCK__ 1
 
-#include "block.h"
+#include "iup.h"
+#include "Block.h"
 #include "bloco_bt.h"
 
 static char button_block_hint = "Bloco" ;
 static char block_img_name = "bloco" ;
+
 Object *canvasButtonBlock( int button, int state, float wx, float wy )
 {
    float p[2] = {wx, wy } ;

@@ -8,6 +8,7 @@ Project::Project()
    _color = 0 ;
    _line_size = 1 ;
    _line_type = 0 ;
+   _selected = NULL;
 };
 Project::~Project()
 {

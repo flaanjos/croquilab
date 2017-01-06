@@ -12,7 +12,7 @@
 /*---------------------------------------------------------------------------*/
 
 #include <string>
-#include <iup.h>
+#include "iup.h"
 
 
 /** @class FileDialog
@@ -34,67 +34,67 @@ public :
 
 
     /**
-    * Define se o diretório inicial da próxima utilização do módulo deve ser modificado para
-    * corresponder ao diretório selecionado na última navegação.
-    * A opção só é válida para esta instancia da classe, mas o diretório, se alterado, será alterado
-    * em qualquer instância da classe.
-    * @param changeDir [true] se deve modificar, [false] se não deve.
+    * Define se o diretï¿½rio inicial da prï¿½xima utilizaï¿½ï¿½o do mï¿½dulo deve ser modificado para
+    * corresponder ao diretï¿½rio selecionado na ï¿½ltima navegaï¿½ï¿½o.
+    * A opï¿½ï¿½o sï¿½ ï¿½ vï¿½lida para esta instancia da classe, mas o diretï¿½rio, se alterado, serï¿½ alterado
+    * em qualquer instï¿½ncia da classe.
+    * @param changeDir [true] se deve modificar, [false] se nï¿½o deve.
     */
     void setChangeDir( bool changeDir );
 
     /**
-    * Define se o método promptForSaving deve abrir uma janela consultando sobre o desejo de sobrescrever o
-    * arquivo selecionado quando este já existe.
-    * @param overwritePrompt [true] se deve modificar, [false] se não deve.
+    * Define se o mï¿½todo promptForSaving deve abrir uma janela consultando sobre o desejo de sobrescrever o
+    * arquivo selecionado quando este jï¿½ existe.
+    * @param overwritePrompt [true] se deve modificar, [false] se nï¿½o deve.
     */
     void setOverwritePrompt (bool overwritePrompt);
 
     /**
-    * Define o diretório inicial da janela quando aberta. Só vale para esta instância da classe.
-    * arquivo selecionado quando este já existe.
-    * @param initialDir Diretório inicial
+    * Define o diretï¿½rio inicial da janela quando aberta. Sï¿½ vale para esta instï¿½ncia da classe.
+    * arquivo selecionado quando este jï¿½ existe.
+    * @param initialDir Diretï¿½rio inicial
     */
     void setInitialDir (const std:: string & initialDir);
 
     /**
-    * Abre uma janela para seleção de um arquivo de escrita. Permite seleção de arquivos não existentes e, se configurado assim, pergunta sobre o desejo de sobrescrever um arquivo já existente.
-    * Também, se configurado assim, impõem uma extensão ao arquivo novo.
-    * @param title Título da janela
-    * @param file Sugestão de nome que aparece inicialmente na janela. Se o nome tiver um diretório então a janela ira iniciar neste diretório ignorando o que tenha sido passado em setInitialDir.
-    * @param filter Filtros para seleção do nome. Mais de um filtro pode ser passado na mesma string desde que estejam separados por ';'. Ex: "*.bmp;*.jpg"
-    * @param filterInfo Descrição do filtro. Mais de uma descrição pode ser passada na mesma string desde que estejam separadas por ';'. Ex: "Bitmap file;JPEG file"
-    * @return [-1] para cancelamento da janela, [0] para seleção de arquivo pré-existente, [1] para seleção de arquivo novo.
+    * Abre uma janela para seleï¿½ï¿½o de um arquivo de escrita. Permite seleï¿½ï¿½o de arquivos nï¿½o existentes e, se configurado assim, pergunta sobre o desejo de sobrescrever um arquivo jï¿½ existente.
+    * Tambï¿½m, se configurado assim, impï¿½em uma extensï¿½o ao arquivo novo.
+    * @param title Tï¿½tulo da janela
+    * @param file Sugestï¿½o de nome que aparece inicialmente na janela. Se o nome tiver um diretï¿½rio entï¿½o a janela ira iniciar neste diretï¿½rio ignorando o que tenha sido passado em setInitialDir.
+    * @param filter Filtros para seleï¿½ï¿½o do nome. Mais de um filtro pode ser passado na mesma string desde que estejam separados por ';'. Ex: "*.bmp;*.jpg"
+    * @param filterInfo Descriï¿½ï¿½o do filtro. Mais de uma descriï¿½ï¿½o pode ser passada na mesma string desde que estejam separadas por ';'. Ex: "Bitmap file;JPEG file"
+    * @return [-1] para cancelamento da janela, [0] para seleï¿½ï¿½o de arquivo prï¿½-existente, [1] para seleï¿½ï¿½o de arquivo novo.
     */
     int promptForSaving (const std::string& title, const std::string& file, const std::string& filter, const std::string& filterInfo);
 
     /**
-    * Abre uma janela para seleção de um arquivo de escrita. Só permite a seleção de arquivos pré-existentes
-    * @param title Título da janela
-    * @param file Sugestão de nome que aparece inicialmente na janela. Se o nome tiver um diretório então a janela ira iniciar neste diretório ignorando o que tenha sido passado em setInitialDir.
-    * @param filter Filtros para seleção do nome. Mais de um filtro pode ser passado na mesma string desde que estejam separados por ';'. Ex: "*.bmp;*.jpg"
-    * @param filterInfo Descrição do filtro. Mais de uma descrição pode ser passada na mesma string desde que estejam separadas por ';'. Ex: "Bitmap file;JPEG file"
-    * @return [-1] para cancelamento da janela, [0] para seleção de arquivo pré-existente.
+    * Abre uma janela para seleï¿½ï¿½o de um arquivo de escrita. Sï¿½ permite a seleï¿½ï¿½o de arquivos prï¿½-existentes
+    * @param title Tï¿½tulo da janela
+    * @param file Sugestï¿½o de nome que aparece inicialmente na janela. Se o nome tiver um diretï¿½rio entï¿½o a janela ira iniciar neste diretï¿½rio ignorando o que tenha sido passado em setInitialDir.
+    * @param filter Filtros para seleï¿½ï¿½o do nome. Mais de um filtro pode ser passado na mesma string desde que estejam separados por ';'. Ex: "*.bmp;*.jpg"
+    * @param filterInfo Descriï¿½ï¿½o do filtro. Mais de uma descriï¿½ï¿½o pode ser passada na mesma string desde que estejam separadas por ';'. Ex: "Bitmap file;JPEG file"
+    * @return [-1] para cancelamento da janela, [0] para seleï¿½ï¿½o de arquivo prï¿½-existente.
     */
     int promptForOpening (const std::string& title, const std::string& file, const std::string& filter, const std::string& filterInfo);
 
     /**
-    * Abre uma janela para seleção de um diretório. Só permite a seleção de diretórios pré-existentes embora, em alguns sistemas, tenha opção de criar um diretório novo e selecioná-lo em seguida.
-    * @param title Título da janela
-    * @param dir Sugestão de diretório inicial. Se não for vazio então a janela irá iniciar neste diretório ignorando o que tenha sido passado em setInitialDir.
-    * @return [-1] para cancelamento da janela, [0] para seleção de diretório pré-existente.
+    * Abre uma janela para seleï¿½ï¿½o de um diretï¿½rio. Sï¿½ permite a seleï¿½ï¿½o de diretï¿½rios prï¿½-existentes embora, em alguns sistemas, tenha opï¿½ï¿½o de criar um diretï¿½rio novo e selecionï¿½-lo em seguida.
+    * @param title Tï¿½tulo da janela
+    * @param dir Sugestï¿½o de diretï¿½rio inicial. Se nï¿½o for vazio entï¿½o a janela irï¿½ iniciar neste diretï¿½rio ignorando o que tenha sido passado em setInitialDir.
+    * @return [-1] para cancelamento da janela, [0] para seleï¿½ï¿½o de diretï¿½rio prï¿½-existente.
     */
     int promptForDirectory( const std::string& title, const std::string& dir );
 
     /**
-    * Define se a função promptForSaving deve impor uma extensão ao arquivo selecionado.
-    * @param extensionMandatory [true] se a extensão deve ser imposta, [false] caso contrário.
-    * @param extension String que será concatenada ao arquivo selecionado caso este já não termine desta forma. Ignorado se a opção for false.
+    * Define se a funï¿½ï¿½o promptForSaving deve impor uma extensï¿½o ao arquivo selecionado.
+    * @param extensionMandatory [true] se a extensï¿½o deve ser imposta, [false] caso contrï¿½rio.
+    * @param extension String que serï¿½ concatenada ao arquivo selecionado caso este jï¿½ nï¿½o termine desta forma. Ignorado se a opï¿½ï¿½o for false.
     */
     void setExtensionMandatory( bool extensionMandatory, const std::string& extension );
 
      /**
-    * Retorna o arquivo ou diretório selecionado em uma chamada prévia de promptFor_x_x_x_ .
-    * @return Arquivo ou diretório selecionado, se não houve chamada prévia a promptFor_x_x_x_ ou se houve e ela foi cancelada então o conteúdo do retorno é imprevisível.
+    * Retorna o arquivo ou diretï¿½rio selecionado em uma chamada prï¿½via de promptFor_x_x_x_ .
+    * @return Arquivo ou diretï¿½rio selecionado, se nï¿½o houve chamada prï¿½via a promptFor_x_x_x_ ou se houve e ela foi cancelada entï¿½o o conteï¿½do do retorno ï¿½ imprevisï¿½vel.
     */
     std::string getFileName ();
 

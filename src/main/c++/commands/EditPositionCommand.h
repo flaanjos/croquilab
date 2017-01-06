@@ -2,6 +2,7 @@
 #define _EDIT_POSITION_COMMAND__H_ 4
 
 #include "Command.h"
+#include "object.h"
 
 
 class EditPositionCommand : public Command

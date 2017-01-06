@@ -2,7 +2,7 @@
 #ifndef _CRACK_BUILDER__H__
 #define _CRACK_BUILDER__H__ 1
 
-#include "2point_segmented_builder.h"
+#include "twopoint_segmented_builder.h"
 
 class CrackBuilder : public TwoPointSegmentedBuilder
 {

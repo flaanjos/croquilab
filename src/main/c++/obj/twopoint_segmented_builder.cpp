@@ -1,4 +1,5 @@
-#include "2point_segmented_builder.h"
+#include "twopoint_segmented_builder.h"
+
 #include "segmented_object.h"
 
 TwoPointSegmentedBuilder::TwoPointSegmentedBuilder()

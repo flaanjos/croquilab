@@ -2,8 +2,8 @@
 #define _COMMAND_STACK_H_ 4
 
 #include "object.h"
-#include "command.h"
 #include <vector>
+#include "Command.h"
 
 class CommandStack
 {

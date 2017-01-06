@@ -1,4 +1,6 @@
-
+#pragma once
+#ifndef _COLOR_BOX__
+#define _COLOR_BOX__ 1
 #include "iup.h"
 
 class ColorBox
@@ -18,11 +20,13 @@ class ColorBox
 
 private:
    char _red, _green, _blue ;
-   Ihanlde *_box ;
+   Ihandle *_box ;
    Ihandle *_browser ;
    Ihandle *_selected_color_bt ;
-   Ihanlde *_selected_color_bt_img ;
+   Ihandle *_selected_color_bt_img ;
 
  
    ColoBoxCallback _callback ;
-}
+};
+
+#endif

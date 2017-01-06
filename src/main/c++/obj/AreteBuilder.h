@@ -2,7 +2,7 @@
 #ifndef _ARETE_BUILDER__H__
 #define _ARETE_BUILDER__H__ 1
 
-#include "2point_segmented_builder.h"
+#include "twopoint_segmented_builder.h"
 
 class AreteBuilder : public TwoPointSegmentedBuilder
 {

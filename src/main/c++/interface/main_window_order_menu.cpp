@@ -3,7 +3,7 @@
 #include "img_drop_down_list.h"
 #include "main_window_class.h"
 #include "cd.h"
-#include "commands\EditObjectsListCommand.h"
+#include "commands/EditObjectsListCommand.h"
 
 enum OrderAction
 {
@@ -19,7 +19,7 @@ static char *img_order[]           = { "move_to_end_bt_img",     "move_back_bt_i
 static char *img_orfer_highlight[] = { "move_to_end_hl_bt_img",  "move_back_hl_bt_img",  "move_foward_hl_bt_img",  "move_to_begining_hl_bt_img" } ;
 static char *img_order_sel[]       = { "move_to_end_sel_bt_img", "move_back_sel_bt_img", "move_foward_sel_bt_img", "move_to_begining_sel_bt_img" } ;
 static OrderAction order_actions[] = { MOVE_TO_END, MOVE_BACK_ONE, MOVE_FOWARD_ONE, MOVE_TO_BEGINING } ;
-static char *order_hints[] = { "Mover para trás", "Recuar um", "Avançar um", "Mover para frente" } ;
+static char *order_hints[] = { "Mover para trï¿½s", "Recuar um", "Avanï¿½ar um", "Mover para frente" } ;
 
 static char *img_order_files[]     = { "button_images\\order\\move_to_end_bt_img.led",     "button_images\\order\\move_back_bt_img.led",     "button_images\\order\\move_foward_bt_img.led",     "button_images\\order\\move_to_begining_bt_img.led" } ;
 //static char *img_order_sel_files[] = { "button_images\\order\\normal\\move_to_end_sel_bt.led",  "button_images\\order\\normal\\move_back_sel_bt.led",  "button_images\\order\\normal\\move_foward_sel_bt.led",  "button_images\\order\\normal\\move_to_begining_sel_bt.led" } ;
@@ -93,7 +93,7 @@ int MainWindow::reorder_cb( Ihandle *button )
 
    std::vector< Object*> new_order =_project->editor()._objects ;
 
-   EditObjectsListCommand* command = new EditObjectsListCommand( &_project->editor(), old_order, new_order, _selected_obj ); 
+   Command* command = new EditObjectsListCommand( &_project->editor(), old_order, new_order, _selected_obj );
    CommandStack::insert( command );
    
 

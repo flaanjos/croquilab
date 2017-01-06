@@ -1,6 +1,5 @@
 #include <string>
 #include <fstream>
-#include "topo_editor.h"
 #include "im.h"
 #include "im_util.h"
 #include "im_image.h"
@@ -17,7 +16,7 @@
 #include "text.h"
 #include "crystal.h"
 #include "hole.h"
-#include "block.h"
+#include "Block.h"
 #include "tree.h"
 #include "palm_tree.h"
 #include "pine_tree.h"
@@ -35,7 +34,7 @@
 #include "off_width.h"
 #include "oposition.h"
 #include "stations.h"
-#include "arrow.h"
+#include "Arrow.h"
 #include "polygonal.h"
 #include "route_line.h"
 #include "solid_saver.h"
@@ -48,6 +47,7 @@
 
 #include "Base64Coder.h"
 #include "ArithmeticCoder.h"
+#include "topoEditor.h"
 
 void readColor   ( Object *o, std::ifstream& stream ) ;
 void readLineType( Object *o, std::ifstream& stream ) ;

@@ -7,7 +7,8 @@
 
 #include "wd.h"
 #include "math.h"
-#include "button_images.h"
+
+#include "../buttonImages.h"
 #include "line_styles_bt.h"
 #include "iupcontrols.h"
 #include "object.h"

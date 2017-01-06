@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <cstring>
 //#include <fileutils.h>
-#include <filename.h>
+#include "filename.h"
 #include "stdio.h"
 
 bool existsFile( const char *file_name )
@@ -85,7 +85,7 @@ int FileDialog::promptForSaving (const std::string& title, const std::string& fi
     }
     else
     {
-        // guarda o valor original de noovewriteprompt e modifica pra não perguntar
+        // guarda o valor original de noovewriteprompt e modifica pra nï¿½o perguntar
         std::string noOverwritePrompt = IupGetAttribute( _iupFileDialog, "NOOVERWRITEPROMPT" );
         IupSetAttribute( _iupFileDialog, "NOOVERWRITEPROMPT", "YES");
 
@@ -104,8 +104,8 @@ int FileDialog::promptForSaving (const std::string& title, const std::string& fi
             if (noOverwritePrompt == "NO" && existsFile( _fileName.c_str() ))
             {
                 std::string message = _fileName;
-                message += "  já existe.\n\nDeseja sobrescrever?\n";
-                int option = IupAlarm( title.c_str(), message.c_str(), "Sim", "Não", NULL);
+                message += "  jï¿½ existe.\n\nDeseja sobrescrever?\n";
+                int option = IupAlarm( title.c_str(), message.c_str(), "Sim", "Nï¿½o", NULL);
                 if (option == 1)
                 {
                     isFileSelected = true;

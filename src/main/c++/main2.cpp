@@ -59,7 +59,7 @@ int main( int argc, char** argv )
 
    delete main_window ;
 
-   IupControlsClose() ;
+  // IupControlsClose() ;
    IupClose();
    return 0;
 }

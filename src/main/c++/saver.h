@@ -7,7 +7,7 @@ class ObjectSaver
 {
 public:
    Saver() {} ;
-   ~Saver() {} ;
+   virtual ~Saver()  ;
 
    virtual void save( FILE *f ) ;
 

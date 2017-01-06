@@ -2,7 +2,7 @@
 #ifndef _SOLID_BUILDER__H__
 #define _SOLID_BUILDER__H__ 1
 
-#include "builder.h"
+#include "../builder.h"
 
 class SolidBuilder : public Builder
 {

@@ -6,7 +6,7 @@ class Rectangle
 {
 public:
    Rectangle() ;
-   ~Rectangle() ;
+   virtual ~Rectangle() ;
 
    virtual const Point2d &min( ) const ;
    virtual void min( const Point2d & p ) ;

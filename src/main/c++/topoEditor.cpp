@@ -1,4 +1,5 @@
-#include "topo_editor.h"
+#include "topoEditor.h"
+
 #include "cd.h"
 #include "float.h"
 #include "number_spliter.h"
@@ -199,8 +200,8 @@ void TopoEditor::boundingBox( Point2d& min, Point2d& max ) const
 
 void TopoEditor::moveToBegining( Object * o  )
 {
-   // Objetos são desenhados a partir do primeiro
-   // entao levar pra frente do desenho é trazer pro fim da lista
+   // Objetos sï¿½o desenhados a partir do primeiro
+   // entao levar pra frente do desenho ï¿½ trazer pro fim da lista
    unsigned int n = (unsigned int)_objects.size() ;
 
 
@@ -235,8 +236,8 @@ void TopoEditor::deleteObjects()
 
 void TopoEditor::moveToEnd( Object * o  )
 {
-      // Objetos são desenhados a partir do primeiro
-   // entao levar pra tras do desenho é trazer pro inicio da lista
+      // Objetos sï¿½o desenhados a partir do primeiro
+   // entao levar pra tras do desenho ï¿½ trazer pro inicio da lista
    unsigned int n = (unsigned int)_objects.size() ;
 
    for( unsigned int i=0 ; i<n ; i++ )
@@ -244,7 +245,7 @@ void TopoEditor::moveToEnd( Object * o  )
       if( _objects[i] == o )
       {
          // Aqui pode fazer j-- com unsigned j  SEM perigo
-         // pois a comparação é j>0 e não j>=0
+         // pois a comparaï¿½ï¿½o ï¿½ j>0 e nï¿½o j>=0
          for( unsigned int j=i ; j>0 ; j-- )
          {
             _objects[j] = _objects[j-1] ;
