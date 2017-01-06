@@ -71,7 +71,7 @@ CPP_DEPS += \
 src/main/c++/commands/%.o: ../src/main/c++/commands/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -I/home/flavia/croquilab/croquiLab/src -I/home/flavia/croquilab/croquiLab/src/main/c++/buttons -I/home/flavia/croquilab/croquiLab/src/main/c++/commands -I/home/flavia/croquilab/croquiLab/src/main/c++/geom -I/home/flavia/croquilab/croquiLab/src/main/c++/images -I/home/flavia/croquilab/croquiLab/src/main/c++/interface -I/home/flavia/croquilab/croquiLab/src/main/c++/obj -I/home/flavia/croquilab/croquiLab/src/main/c++/utils -I/home/flavia/croquilab/croquiLab/src/main/c++/ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

@@ -13,7 +13,6 @@ RM := rm -rf
 -include src/main/c++/interface/subdir.mk
 -include src/main/c++/imagens/subdir.mk
 -include src/main/c++/geom/subdir.mk
--include src/main/c++/commands\ -\ Cópia/subdir.mk
 -include src/main/c++/commands/subdir.mk
 -include src/main/c++/subdir.mk
 -include subdir.mk
@@ -47,8 +46,11 @@ endif
 # All Target
 all: croquiLab
 
+dependents:
+	-cd /home/flavia/croquilab/croquiLab/Release && $(MAKE) clean all
+
 # Tool invocations
-croquiLab: $(OBJS) $(USER_OBJS)
+croquiLab: $(OBJS) $(USER_OBJS) /home/flavia/croquilab/croquiLab/Release/croquiLab
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
 	g++  -o "croquiLab" $(OBJS) $(USER_OBJS) $(LIBS)
@@ -62,5 +64,6 @@ clean:
 
 .PHONY: all clean dependents
 .SECONDARY:
+/home/flavia/croquilab/croquiLab/Release/croquiLab:
 
 -include ../makefile.targets

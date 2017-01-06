@@ -62,112 +62,112 @@ CPP_DEPS += \
 src/main/c++/commands\ -\ Cópia/AddObjectsToEndCommand.o: ../src/main/c++/commands\ -\ Cópia/AddObjectsToEndCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/AddObjectsToEndCommand.d" -MT"src/main/c++/commands\ -\ Cópia/AddObjectsToEndCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/AddObjectsToEndCommand.d" -MT"src/main/c++/commands\ -\ Cópia/AddObjectsToEndCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/ChangeColorCommand.o: ../src/main/c++/commands\ -\ Cópia/ChangeColorCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/ChangeColorCommand.d" -MT"src/main/c++/commands\ -\ Cópia/ChangeColorCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/ChangeColorCommand.d" -MT"src/main/c++/commands\ -\ Cópia/ChangeColorCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/ChangeLineSizeCommand.o: ../src/main/c++/commands\ -\ Cópia/ChangeLineSizeCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/ChangeLineSizeCommand.d" -MT"src/main/c++/commands\ -\ Cópia/ChangeLineSizeCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/ChangeLineSizeCommand.d" -MT"src/main/c++/commands\ -\ Cópia/ChangeLineSizeCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/ChangeLineTypeCommand.o: ../src/main/c++/commands\ -\ Cópia/ChangeLineTypeCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/ChangeLineTypeCommand.d" -MT"src/main/c++/commands\ -\ Cópia/ChangeLineTypeCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/ChangeLineTypeCommand.d" -MT"src/main/c++/commands\ -\ Cópia/ChangeLineTypeCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/CreateCurvedPointCommand.o: ../src/main/c++/commands\ -\ Cópia/CreateCurvedPointCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/CreateCurvedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/CreateCurvedPointCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/CreateCurvedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/CreateCurvedPointCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/CreateSegmentedPointCommand.o: ../src/main/c++/commands\ -\ Cópia/CreateSegmentedPointCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/CreateSegmentedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/CreateSegmentedPointCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/CreateSegmentedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/CreateSegmentedPointCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditCurvedPointCommand.o: ../src/main/c++/commands\ -\ Cópia/EditCurvedPointCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditCurvedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditCurvedPointCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditCurvedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditCurvedPointCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditObjectsListCommand.o: ../src/main/c++/commands\ -\ Cópia/EditObjectsListCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditObjectsListCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditObjectsListCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditObjectsListCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditObjectsListCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditPointScapeCommand.o: ../src/main/c++/commands\ -\ Cópia/EditPointScapeCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditPointScapeCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditPointScapeCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditPointScapeCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditPointScapeCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditPositionCommand.o: ../src/main/c++/commands\ -\ Cópia/EditPositionCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditPositionCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditPositionCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditPositionCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditPositionCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditScaleCommand.o: ../src/main/c++/commands\ -\ Cópia/EditScaleCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditScaleCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditScaleCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditScaleCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditScaleCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditSegmentedPointCommand.o: ../src/main/c++/commands\ -\ Cópia/EditSegmentedPointCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditSegmentedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditSegmentedPointCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditSegmentedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/EditSegmentedPointCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/EditWideSegmentedWidth.o: ../src/main/c++/commands\ -\ Cópia/EditWideSegmentedWidth.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditWideSegmentedWidth.d" -MT"src/main/c++/commands\ -\ Cópia/EditWideSegmentedWidth.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/EditWideSegmentedWidth.d" -MT"src/main/c++/commands\ -\ Cópia/EditWideSegmentedWidth.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/RemoveCurvedPointCommand.o: ../src/main/c++/commands\ -\ Cópia/RemoveCurvedPointCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/RemoveCurvedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/RemoveCurvedPointCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/RemoveCurvedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/RemoveCurvedPointCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/RemoveSegmentedPointCommand.o: ../src/main/c++/commands\ -\ Cópia/RemoveSegmentedPointCommand.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/RemoveSegmentedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/RemoveSegmentedPointCommand.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/RemoveSegmentedPointCommand.d" -MT"src/main/c++/commands\ -\ Cópia/RemoveSegmentedPointCommand.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/main/c++/commands\ -\ Cópia/commandStack.o: ../src/main/c++/commands\ -\ Cópia/commandStack.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/commandStack.d" -MT"src/main/c++/commands\ -\ Cópia/commandStack.d" -o "$@" "$<"
+	g++ -I/home/flavia/programacao/cpp_libs/cd/include -I/home/flavia/programacao/cpp_libs/im/include -I/home/flavia/programacao/cpp_libs/iup/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main/c++/commands - Cópia/commandStack.d" -MT"src/main/c++/commands\ -\ Cópia/commandStack.d" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

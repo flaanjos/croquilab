@@ -3,6 +3,7 @@
 	<name>croquiLab</name>
 	<comment></comment>
 	<projects>
+		<project>croquiLab</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
