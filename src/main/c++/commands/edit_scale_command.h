@@ -1,7 +1,7 @@
 #ifndef _EDIT_SCALE_COMMAND__H_ 
 #define _EDIT_SCALE_COMMAND__H_ 4
 
-#include "Command.h"
+#include "command.h"
 
 
 

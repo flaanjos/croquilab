@@ -3,7 +3,7 @@
 #include "cd.h"
 #include "wd.h"
 
-#include "EditListCommand.h"
+#include "edit_list_command.h"
 #include "commandStack.h"
 
 ListManipulator* ListManipulator::_unique = 0 ;

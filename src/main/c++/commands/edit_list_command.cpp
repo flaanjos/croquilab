@@ -1,4 +1,4 @@
-#include "EditListCommand.h"
+#include "edit_list_command.h"
 
 
 EditListCommand::EditListCommand( const std::vector< Object* >& objects, 

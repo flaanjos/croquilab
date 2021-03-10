@@ -1,4 +1,4 @@
-#include "ChangeLineSizeCommand.h"
+#include "change_line_size_command.h"
 
 
 ChangeLineSizeCommand::ChangeLineSizeCommand( const std::vector< Object* >& objects, long int new_ls, const std::vector< long int >& old_ls )

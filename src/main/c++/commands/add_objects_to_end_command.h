@@ -1,10 +1,10 @@
 #ifndef _ADD_OBJECTS_TO_END_COMMAND_H_
 #define _ADD_OBJECTS_TO_END_COMMAND_H_ 4
 
-#include "Command.h"
+#include "command.h"
 #include "object.h"
 #include <vector>
-#include "../topoEditor.h"
+#include "../topo_editor.h"
 
 
 

@@ -4,7 +4,7 @@
 
 #include "object.h"
 #include "manipulator.h"
-#include "Point2d.h"
+#include "point2d.h"
 
 class Solid : public Object
 {

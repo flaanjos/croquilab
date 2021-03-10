@@ -1,4 +1,4 @@
-#include "EditObjectsListCommand.h"
+#include "edit_objects_list_command.h"
 
 
 DeleteObjectsCommand::DeleteObjectsCommand( TopoEditor* editor, const std::vector< Object* >& old_list, const std::vector< Object* >& new_list, const std::vector< Object* >& objects )

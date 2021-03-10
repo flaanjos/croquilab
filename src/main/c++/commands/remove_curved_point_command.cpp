@@ -1,4 +1,4 @@
-#include "RemoveCurvedPointCommand.h"
+#include "remove_curved_point_command.h"
 
 
 RemoveCurvedPointCommand::RemoveCurvedPointCommand( Curved* o, int point_index ) :

@@ -3,8 +3,8 @@
 #include "cd.h"
 #include "wd.h"
 
-#include "EditPositionCommand.h"
-#include "CommandStack.h"
+#include "edit_position_command.h"
+#include "command_stack.h"
 
 SolidManipulator* SolidManipulator::_unique = 0 ;
 

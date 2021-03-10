@@ -4,10 +4,10 @@
 #include "wd.h"
 #include "iup.h"
 
-#include "EditSegmentedPointCommand.h"
-#include "RemoveSegmentedPointCommand.h"
+#include "edit_segmented_point_command.h"
+#include "remove_segmented_point_command.h"
 #include "EditWideSegmentedWidth.h"
-#include "EditPositionCommand.h"
+#include "edit_position_command.h"
 #include "commandStack.h"
 
 

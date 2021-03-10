@@ -2,7 +2,7 @@
 #ifndef _OPOSITION_BUILDER__H__
 #define _OPOSITION_BUILDER__H__ 1
 
-#include "twopoint_segmented_builder.h"
+#include "two_point_segmented_builder.h"
 
 class OpositionBuilder : public TwoPointSegmentedBuilder
 {

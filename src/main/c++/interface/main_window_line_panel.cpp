@@ -1,4 +1,4 @@
-#include "../buttonImages.h"
+#include "../button_images.h"
 #include "main_window_class.h"
 
 #include "iup.h"

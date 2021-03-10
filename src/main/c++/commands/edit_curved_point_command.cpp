@@ -1,4 +1,4 @@
-#include "EditCurvedPointCommand.h"
+#include "edit_curved_point_command.h"
 
 
 EditCurvedPointCommand::EditCurvedPointCommand( Curved* o, int point_index, const Point2d& new_p, const Point2d& old_p ) :

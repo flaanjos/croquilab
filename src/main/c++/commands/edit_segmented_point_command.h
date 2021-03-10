@@ -1,7 +1,7 @@
 #ifndef _EDIT_SEGMENTED_POINT_COMMAND__H_ 
 #define _EDIT_SEGMENTED_POINT_COMMAND__H_  4
 
-#include "Command.h"
+#include "command.h"
 #include "segmented_object.h"
 
 class EditSegmentedPointCommand : public Command

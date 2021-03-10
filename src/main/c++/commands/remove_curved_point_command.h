@@ -1,7 +1,7 @@
 #ifndef _REMOVE_CURVED_POINT_COMMAND__H_ 
 #define _REMOVE_CURVED_POINT_COMMAND__H_  4
 
-#include "Command.h"
+#include "command.h"
 #include "curved_object.h"
 
 class RemoveCurvedPointCommand : public Command

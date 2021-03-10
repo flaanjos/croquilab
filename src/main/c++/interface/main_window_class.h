@@ -11,8 +11,7 @@
 #include "img_drop_down_list.h"
 #include "group.h"
 #include <string>
-#include "commands\commandStack.h"
-
+#include "commands\command_stack.h"
 void createLineSizeMenu() ;
 void createLineTypeMenu() ;
 

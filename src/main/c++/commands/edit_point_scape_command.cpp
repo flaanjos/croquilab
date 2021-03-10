@@ -1,4 +1,4 @@
-#include "EditPointScapeCommand.h"
+#include "edit_point_scape_command.h
 
 
 EditPointScapeCommand::EditPointScapeCommand( Curved* o, int scape_type, int point_index, const Point2d& new_p, const Point2d& old_p ) :

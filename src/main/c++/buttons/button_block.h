@@ -3,7 +3,7 @@
 #define _BUTTON_BLOCK__ 1
 
 #include "iup.h"
-#include "Block.h"
+#include "block.h"      
 #include "bloco_bt.h"
 
 static char button_block_hint = "Bloco" ;

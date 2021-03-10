@@ -1,4 +1,4 @@
-#include "EditScaleCommand.h"
+#include "edit_scale_command.h"
 
 
 EditScaleCommand::EditScaleCommand( const std::vector< Object* >& objects, const Point2d& new_p, const Point2d& old_p, const Point2d& new_s, const Point2d& old_s ) :

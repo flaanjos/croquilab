@@ -1,4 +1,4 @@
-#include "EditWideSegmentedWidth.h"
+#include "edit_wide_segmented_width.h"
 
 
 EditWideSegmentedWidth::EditWideSegmentedWidth( WideSegmented* o, float new_w, float old_w )

@@ -14,7 +14,7 @@
 #include "wd.h"
 #include "image_saver.h"
 
-#include "commands\ChangeColorCommand.h"
+#include "commands\change_color_command.h"
 
 
 

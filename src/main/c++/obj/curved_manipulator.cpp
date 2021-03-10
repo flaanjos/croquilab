@@ -4,11 +4,11 @@
 #include "wd.h"
 #include "iup.h"
 
-#include "EditCurvedPointCommand.h"
-#include "EditPointScapeCommand.h"
-#include "EditPositionCommand.h"
-#include "RemoveCurvedPointCommand.h"
-#include "CommandStack.h"
+#include "edit_curved_point_command.h"
+#include "edit_point_scape_command.h
+#include "edit_position_command.h"
+#include "remove_curved_point_command.h"
+#include "command_stack.h"
 
 
 CurvedManipulator* CurvedManipulator::_unique = 0 ;

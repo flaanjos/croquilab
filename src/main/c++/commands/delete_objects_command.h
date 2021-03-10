@@ -1,10 +1,10 @@
 #ifndef _DELETE_OBJECTS_LIST_COMMAND_H_
 #define _DELETE_OBJECTS_LIST_COMMAND_H_ 4
 
-#include "Command.h"
+#include "command.h"
 #include "object.h"
 #include <vector>
-#include "../topoEditor.h"
+#include "../topo_editor.h"
 
 
 

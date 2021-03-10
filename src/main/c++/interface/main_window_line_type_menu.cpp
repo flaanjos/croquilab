@@ -3,7 +3,7 @@
 #include "img_drop_down_list.h"
 #include "main_window_class.h"
 #include "cd.h"
-#include "commands\ChangeLineTypeCommand.h"
+#include "commands\change_line_type_command.h"
 
 static char *colors_line_type_popup[2] = {"BGCOLOR", "0 0 0" } ;
 static char *colors_line_type_popup_press[2] = {"BGCOLOR", "0 208 0" } ;
@@ -232,7 +232,7 @@ static Ihandle *createImage( int width, int height, unsigned char *pixels, int n
 static char *imglistlinetype_liston[] = { "img_line_type_item_off_1", "img_line_type_item_off_2", "img_line_type_item_off_3", "img_line_type_item_off_4", "img_line_type_item_off_5" } ;
 static char *imglistlinetype_list_off[] = { "img_line_type_item_on_1", "img_line_type_item_on_2", "img_line_type_item_on_3", "img_line_type_item_on_4", "img_line_type_item_on_5" } ;
 static char *imglistlinetype_labels[] = { "img_line_type_label_1", "img_line_type_label_2", "img_line_type_label_3", "img_line_type_label_4", "img_line_type_label_5"} ;
-static char *imglistlinetype_names[] = { "contínuo", "traço", "ponto", "traço-ponto", "traço-ponto-ponto" } ;
+static char *imglistlinetype_names[] = { "contï¿½nuo", "traï¿½o", "ponto", "traï¿½o-ponto", "traï¿½o-ponto-ponto" } ;
 
 static const struct ImgDropDownListContent content_popup_lyne_type =
 {

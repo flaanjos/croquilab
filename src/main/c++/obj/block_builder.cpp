@@ -1,5 +1,5 @@
-#include "BlockBuilder.h"
-#include "Block.h"
+#include "block_builder.h"
+#include "block.h"
 #include "scalable_saver.h"
 
 BlockBuilder::BlockBuilder()

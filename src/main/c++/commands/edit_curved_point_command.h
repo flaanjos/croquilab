@@ -1,7 +1,7 @@
 #ifndef _EDIT_CURVED_POINT_COMMAND__H_ 
 #define _EDIT_CURVED_POINT_COMMAND__H_  4
 
-#include "Command.h"
+#include "command.h"
 #include "curved_object.h"
 
 class EditCurvedPointCommand : public Command

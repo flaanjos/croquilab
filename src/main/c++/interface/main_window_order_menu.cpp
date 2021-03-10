@@ -3,7 +3,7 @@
 #include "img_drop_down_list.h"
 #include "main_window_class.h"
 #include "cd.h"
-#include "commands/EditObjectsListCommand.h"
+#include "commands/edit_objects_list_command.h"
 
 enum OrderAction
 {

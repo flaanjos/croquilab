@@ -1,4 +1,4 @@
-#include "RemoveSegmentedPointCommand.h"
+#include "remove_segmented_point_command.h"
 
 
 RemoveSegmentedPointCommand::RemoveSegmentedPointCommand( Segmented* o, int point_index ) :

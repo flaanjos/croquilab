@@ -1,5 +1,4 @@
-#include "AddObjectsToEndCommand.h"
-
+#include "add_objects_to_end_command.h"
 
 AddObjectsToEndCommand::AddObjectsToEndCommand( TopoEditor* editor, const std::vector< Object* >& objects )
 {

@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include "img_drop_down_list.h"
 #include "main_window_class.h"
-#include "commands\ChangeLineSizeCommand.h"
+#include "commands\change_line_size_command.h"
 
 static char *colors_line_size_popup[2] = { "BGCOLOR", "0 0 0" } ;
 static char *colors_line_size_popup_press[2] = {"BGCOLOR", "0 208 0" } ;

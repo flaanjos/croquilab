@@ -4,10 +4,10 @@
 #include "wd.h"
 #include "iup.h"
 
-#include "EditSegmentedPointCommand.h"
-#include "EditPositionCommand.h"
-#include "RemoveSegmentedPointCommand.h"
-#include "CommandStack.h"
+#include "edit_segmented_point_command.h"
+#include "edit_position_command.h"
+#include "remove_segmented_point_command.h"
+#include "command_stack.h"
 
 
 SegmentedManipulator* SegmentedManipulator::_unique = 0 ;

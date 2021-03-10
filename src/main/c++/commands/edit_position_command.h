@@ -1,7 +1,7 @@
 #ifndef _EDIT_POSITION_COMMAND__H_ 
 #define _EDIT_POSITION_COMMAND__H_ 4
 
-#include "Command.h"
+#include "command.h"
 #include "object.h"
 
 

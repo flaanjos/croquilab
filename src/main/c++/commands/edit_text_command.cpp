@@ -1,4 +1,4 @@
-#include "EditTextCommand.h"
+#include "edit_text_command.h"
 
 EditTextCommand::EditTextCommand( Text* text, const std::string& new_t, const std::string& old_t, int new_s, int old_s )
 {

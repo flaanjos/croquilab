@@ -3,7 +3,7 @@
 
 #include "object.h"
 #include <vector>
-#include "Command.h"
+#include "command.h"
 
 class CommandStack
 {

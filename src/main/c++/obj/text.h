@@ -3,7 +3,7 @@
 #define __TEXT__H__ 2
 
 #include "solid_object.h"
-#include "Point2d.h"
+#include "point2d.h"
 #include "manipulator.h"
 #include <string>
 

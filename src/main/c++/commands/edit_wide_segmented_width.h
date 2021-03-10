@@ -1,7 +1,7 @@
 #ifndef _CHANGE_WIDE_SEGMENTED_WIDTH_COMMAND_H_
 #define _CHANGE_WIDE_SEGMENTED_WIDTH_COMMAND_H_ 4
 
-#include "Command.h"
+#include "command.h"
 #include "wide_segmented_object.h"
 
 class EditWideSegmentedWidth : public Command

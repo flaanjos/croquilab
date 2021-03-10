@@ -1,8 +1,8 @@
 #include "main_window_class.h"
 #include "iup.h"
 #include "list_manipulator.h"
-#include "commands\EditObjectsListCommand.h"
-#include "commands\AddObjectsToEndCommand.h"
+#include "commands\edit_objects_list_command.h"
+#include "commands\add_objects_to_end_command.h"
 
 
 int MainWindow::editCommandsCopy_cb( Ihandle* ih )

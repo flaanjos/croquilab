@@ -3,9 +3,9 @@
 #include "cd.h"
 #include "wd.h"
 
-#include "EditPositionCommand.h"
-#include "EditScaleCommand.h"
-#include "CommandStack.h"
+#include "edit_position_command.h"
+#include "edit_scale_command.h"
+#include "command_stack.h"
 
 ScalableManipulator* ScalableManipulator::_unique = 0 ;
 

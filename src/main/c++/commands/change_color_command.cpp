@@ -1,4 +1,4 @@
-#include "ChangeColorCommand.h"
+#include "change_color_command.h"
 
 
 ChangeColorCommand::ChangeColorCommand( const std::vector< Object* >& objects, long int new_c, const std::vector< long int >& old_c )

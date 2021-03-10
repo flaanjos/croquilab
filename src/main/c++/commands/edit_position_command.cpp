@@ -1,4 +1,4 @@
-#include "EditPositionCommand.h"
+#include "edit_position_command.h"
 
 
 EditPositionCommand::EditPositionCommand( const std::vector< Object* >& objects, const Point2d& new_p, const Point2d& old_p ) :

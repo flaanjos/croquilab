@@ -1,4 +1,4 @@
-#include "EditSegmentedPointCommand.h"
+#include "edit_segmented_point_command.h"
 
 
 EditSegmentedPointCommand::EditSegmentedPointCommand( Segmented* o, int point_index, const Point2d& new_p, const Point2d& old_p ) :

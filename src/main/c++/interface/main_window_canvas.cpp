@@ -9,8 +9,7 @@
 #include "image.h"
 //#include "group.h"
 #include "list_manipulator.h"
-#include "AddObjectsToEndCommand.h"
-
+#include "add_objects_to_end_command.h"
 static bool _pressed = false;
 static bool _dragging = false ;
 static double _dragging_start_x ;

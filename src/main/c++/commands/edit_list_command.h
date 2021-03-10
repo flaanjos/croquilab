@@ -1,7 +1,7 @@
 #ifndef _EDIT_LIST_COMMAND__H_ 
 #define _EDIT_LIST_COMMAND__H_ 4
 
-#include "Command.h"
+#include "command.h"
 
 
 class EditListCommand : public Command

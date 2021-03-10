@@ -2,7 +2,7 @@
 #ifndef _CABLE_BUILDER__H__
 #define _CABLE_BUILDER__H__ 1
 
-#include "twopoint_segmented_builder.h"
+#include "two_point_segmented_builder.h"
 
 class CableBuilder : public TwoPointSegmentedBuilder
 {

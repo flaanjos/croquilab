@@ -3,7 +3,7 @@
 #define _SLAB__ 1
 
 #include "segmented_object.h"
-#include "Point2d.h"
+#include "point2d.h"
 #include <vector>
 
 

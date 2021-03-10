@@ -1,4 +1,4 @@
-#include "ChangeLineTypeCommand.h"
+#include "change_line_type_command.h"
 
 
 ChangeLineTypeCommand::ChangeLineTypeCommand( const std::vector< Object* >& objects, long int new_lt, const std::vector< long int >& old_lt )

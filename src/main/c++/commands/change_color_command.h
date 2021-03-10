@@ -1,7 +1,7 @@
 #ifndef _CHANGE_COLOR_COMMAND_H_
 #define _CHANGE_COLOR_COMMAND_H_ 4
 
-#include "Command.h"
+#include "command.h"
 
 class ChangeColorCommand : public Command
 {

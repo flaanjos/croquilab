@@ -5,8 +5,8 @@
 #include "iup.h"
 #include "iupcontrols.h"
 
-#include "EditPositionCommand.h"
-#include "EditTextCommand.h"
+#include "edit_position_command.h"
+#include "edit_text_command.h"
 #include "commandStack.h"
 
 TextManipulator* TextManipulator::_unique = 0 ;

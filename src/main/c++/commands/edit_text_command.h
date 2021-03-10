@@ -1,7 +1,7 @@
 #ifndef _EDIT_TEXT_COMMAND_H_
 #define _EDIT_TEXT_COMMAND_H_ 4
 
-#include "Command.h"
+#include "command.h"
 #include "text.h"
 
 class EditTextCommand : public Command
